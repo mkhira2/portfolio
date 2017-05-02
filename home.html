@@ -25,15 +25,49 @@
         </div>
     </header>
 
-    <div id="profilePic">
-        <img src="images/profile.jpg" id="kenjiPic" >
-    </div>
-
     <section id='about'>
-        <h1> <strong>About</strong></h1>
-        <p>Hi! I'm Kenji Hirabayashi. </p>
-        <p>After working for a decade in the restaurant industry, I decided to test my skills in tech. I enrolled in The Iron Yard, where I graduated from a 12-week "bootcamp" focused on client-side web application development. <p>
-        <p>When I'm not working on coding new exciting projects, I enjoy bicycling, tennis, cooking, and traveling.</p>
+        <div id="aboutPage">
+          <div id="profilePic">
+              <img src="images/profile.jpg" id="kenjiPic" >
+          </div>
+          <div id="profileText">
+            <p>Hi! I'm Kenji Hirabayashi. </p>
+            <p>After working for a decade in the restaurant industry, I decided to test my skills in tech. I enrolled in The Iron Yard, where I graduated from a 12-week "bootcamp" focused on client-side web application development.</p>
+            <p>When I'm not working on coding new exciting projects, I enjoy bicycling, tennis, cooking, and traveling.</p>
+          </div>
+        </div>
+    </section>
+
+    <section id='portfolio'>
+        <h1> <strong>My Portfolio</strong></h1>
+
+        <div id="projects">
+            <div class="project">
+                <a href="https://www.hashiruapp.com/#login" target="_blank">
+                    <img class="project-img" src="images/hashiru.png">
+                </a>
+                <h3 class="project-title">Hashiru</h3>
+            </div>
+            <div class="project">
+                <a href="https://getsyapp.herokuapp.com" target="_blank">
+                    <img class="project-img" src="images/getsy.png">
+                </a>
+                <h3 class="project-title">Getsy</h3>
+            </div>
+            <div class="project">
+                <a href="https://mkhira2.github.io/weatherAppBackbone" target="_blank">
+                    <img class="project-img" src="images/weather.png">
+                </a>
+                <h3 class="project-title">Weather Gone Wild</h3>
+            </div>
+            <div class="project">
+                <a href="https://iron-pong.herokuapp.com" target="_blank">
+                    <img class="project-img" src="images/ironpong.png">
+                </a>
+                <h3 class="project-title">Iron Pong</h3>
+            </div>
+        </div>
+
     </section>
 
     <section id='skills'>
@@ -86,38 +120,6 @@
         </div>
     </section>
 
-    <section id='portfolio'>
-        <h1> <strong>My Portfolio</strong></h1>
-
-        <div id="projects">
-            <div class="project">
-                <a href="https://www.hashiruapp.com/#login" target="_blank">
-                    <img class="project-img" src="images/hashiru.png">
-                </a>
-                <h3 class="project-title">Hashiru</h3>
-            </div>
-            <div class="project">
-                <a href="https://getsyapp.herokuapp.com" target="_blank">
-                    <img class="project-img" src="images/getsy.png">
-                </a>
-                <h3 class="project-title">Getsy</h3>
-            </div>
-            <div class="project">
-                <a href="https://mkhira2.github.io/weatherAppBackbone" target="_blank">
-                    <img class="project-img" src="images/weather.png">
-                </a>
-                <h3 class="project-title">Weather Gone Wild</h3>
-            </div>
-            <div class="project">
-                <a href="https://iron-pong.herokuapp.com" target="_blank">
-                    <img class="project-img" src="images/ironpong.png">
-                </a>
-                <h3 class="project-title">Iron Pong</h3>
-            </div>
-        </div>
-
-    </section>
-
     <section id='general-info'>
         <h1> <strong>General Information</strong></h1>
         <p>I am currently looking for new web development work. If you have any interesting opportunities, please don't hesitate to contact me.</p>
@@ -149,7 +151,7 @@
                 <li class="loud"><a href="#contact" class="header-aTag">Contact</a></li>
         </ul>
 
-        <p>2017 Kenji Hirabayashi.</p>
+        <p class="copyright">2017 Kenji Hirabayashi.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

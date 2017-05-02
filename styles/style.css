@@ -128,13 +128,35 @@ h3 {
 }
 
 section#about {
-    background: #78A4B4;
     font-size: 18px;
+		background: #E9EDDE;
+}
+
+#aboutPage {
+	display: flex;
+	justify-content: space-around;
+}
+
+#profileText {
+	margin-top: 25px;
+	width: 50%;
 }
 
 section#general-info {
-	background: #78A4B4;
 	font-size: 18px;
+	background: #78A4B4;
+}
+
+section#portfolio {
+	background: #78A4B4;
+}
+
+section#skills {
+	background: #E9EDDE;
+}
+
+section#contact {
+	background: #E9EDDE;
 }
 
 .mail {
@@ -160,4 +182,8 @@ footer {
     height: 200px;
     color: white;
     padding-top: 30px;
+}
+
+.copyright {
+	margin-top: 10px;
 }
