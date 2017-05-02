@@ -3,9 +3,10 @@
 	text-align: center;
 }
 
-img {
+img.skill-icon {
 	max-width: 75%;
 }
+
 html{
 	width: 100%;
 }
