@@ -120,15 +120,20 @@ img.project-img:hover {
 
 section#about {
     background: #78A4B4;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 section#general-info {
 	background: #78A4B4;
+	font-size: 18px;
 }
 
 .mail {
   padding-bottom: 10px;
+}
+
+.phone {
+	padding-bottom: 10px;
 }
 
 img.social-icon {
