@@ -118,6 +118,15 @@ img.project-img:hover {
   outline: 4px solid darkblue;
 }
 
+.project-title {
+	margin-top: 3px;
+	color: darkblue;
+}
+
+h3 {
+	list-style: none;
+}
+
 section#about {
     background: #78A4B4;
     font-size: 18px;
