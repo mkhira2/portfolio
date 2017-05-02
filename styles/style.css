@@ -130,11 +130,8 @@ h3 {
 section#about {
     font-size: 18px;
 		background: #E9EDDE;
-}
-
-#aboutPage {
-	display: flex;
-	justify-content: space-around;
+		display: flex;
+		justify-content: space-around;
 }
 
 #profileText {
@@ -186,4 +183,15 @@ footer {
 
 .copyright {
 	margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+	section#about {
+		display: block;
+		text-align: center;
+	}
+
+	#profileText {
+		margin: 0 auto;
+	}
 }
