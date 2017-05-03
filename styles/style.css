@@ -186,6 +186,10 @@ footer {
     padding-top: 30px;
 }
 
+ul.contact-info {
+	padding: 0;
+}
+
 .copyright {
 	margin-top: 10px;
 }
@@ -198,5 +202,6 @@ footer {
 
 	#profileText {
 		margin: 0 auto;
+		width: 90%;
 	}
 }
