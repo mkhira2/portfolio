@@ -194,6 +194,11 @@ ul.contact-info {
 	margin-top: 10px;
 }
 
+.gather {
+	margin-top: 15px;
+	color: black;
+}
+
 @media (max-width: 800px) {
 	section#about {
 		display: block;
